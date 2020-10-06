@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import styles from './App.module.css';
+import './components/Board/Board.module.css';
+import './components/Square/Square.module.css';
 import Board from "./components/Board/Board";
 
 const App = () => {
