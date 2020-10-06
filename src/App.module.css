@@ -1,4 +1,4 @@
-html {
+:global(html) {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +12,7 @@ html {
     align-items: center;
 }
 
-.retry-btn {
+.btn {
     background-color: #679b9b;
     outline: none;
     font-size: 16px;

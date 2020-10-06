@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from './App.module.css';
 import Board from "./components/Board/Board";
 
 const App = () => {
@@ -17,10 +18,10 @@ const App = () => {
     setXisNext(true);
   }
   return (
-    <div className="main">
+    <div className={styles.main}>
       <h3>{winner ? "Winner: " + winner : "Next Player: " + (xIsNext ? "X" : "O")}</h3>
       <Board squares={board} onClick={handleClick} />
-      <button className="retry-btn" onClick={handleRetry}>
+      <button className={styles.btn} onClick={handleRetry}>
         Retry
       </button>
     </div>
