@@ -1,10 +1,19 @@
 .btn {
-    background: #ff9a76;
     border: 2px solid #ffeadb;
+    background: #ff9a76;
     font-size: 30px;
     font-weight: 800;
     cursor: pointer;
     outline: none;
     color: white;
-};
+}
+
+
+.active {
+    background: #679b9b;
+}
+
+.winning {
+    background: #679b9b;
+}
 
